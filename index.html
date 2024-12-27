@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Cursos e Formações</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    h2 {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meus Estudos</h1>
+
+  <h2>Cursos</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome do Curso</th>
+        <th>Último Acesso</th>
+        <th>Progresso (%)</th>
+      </tr>
+    </thead>
+    <tbody id="courses-table">
+      <tr>
+        <td colspan="3">Carregando dados...</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Formações</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome da Formação</th>
+        <th>Último Acesso</th>
+        <th>Total de Cursos</th>
+        <th>Cursos Concluídos</th>
+      </tr>
+    </thead>
+    <tbody id="guides-table">
+      <tr>
+        <td colspan="4">Carregando dados...</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
