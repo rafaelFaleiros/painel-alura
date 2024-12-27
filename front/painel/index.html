@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Cursos e Formações</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+ <!-- Navbar -->
+<nav>
+    <ul>
+      <li><a href="../Planejamento-de-cursos/index.html">Planejamento de Cursos</a></li> <!-- Alterado para link correto -->
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#progresso-geral">Progresso Geral</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Meus Cursos e Formações</h1>
+  </header>
+
+  <section>
+    <h2 id="planejamento">Cursos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome do Curso</th>
+          <th>Último Acesso</th>
+          <th>Progresso (%)</th>
+        </tr>
+      </thead>
+      <tbody id="courses-table">
+        <tr>
+          <td colspan="3">Carregando dados...</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="dashboard">Formações</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome da Formação</th>
+          <th>Último Acesso</th>
+          <th>Total de Cursos</th>
+          <th>Cursos Concluídos</th>
+        </tr>
+      </thead>
+      <tbody id="guides-table">
+        <tr>
+          <td colspan="4">Carregando dados...</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="ranking" class="ranking-section">
+      <h2 id="progresso-geral">Ranking dos Cursos</h2>
+      <div id="ranking-content">Carregando...</div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
