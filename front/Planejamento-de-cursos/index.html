@@ -12,7 +12,9 @@
     <!-- Formulário para planejar o curso -->
     <form id="course-planning-form">
         <label for="courseName">Nome do curso</label>
-        <input type="text" id="courseName" name="courseName" required>
+        <select id="courseName" name="courseName" required>
+            <!-- As opções de cursos serão preenchidas dinamicamente -->
+        </select>
 
         <label for="priorityLevel">Nível de prioridade</label>
         <select id="priorityLevel" name="priorityLevel">
@@ -36,6 +38,6 @@
         <ul id="course-list-display"></ul>
     </div>
 
-    <script src="script.js"></script>
+<script type="module" src="script.js"></script>
 </body>
 </html>
