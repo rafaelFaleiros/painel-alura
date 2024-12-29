@@ -67,3 +67,34 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* Estilo da tabela de estudo */
+.study-plan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.study-plan-table th, .study-plan-table td {
+  padding: 10px;
+  border: 1px solid #3498db; /* Borda azul para destacar */
+}
+
+.study-plan-table th {
+  background-color: #2980b9; /* Azul para o cabeçalho */
+  color: #fff;
+}
+
+.study-plan-table td {
+  background-color: #2c3e50; /* Fundo escuro para os dados */
+  color: #ecf0f1;
+}
+
+.study-plan-table tr:nth-child(even) {
+  background-color: #34495e; /* Linhas alternadas com fundo um pouco mais claro */
+}
+
+.study-plan-table tr:hover {
+  background-color: #7f8c8d; /* Efeito ao passar o mouse */
+}
